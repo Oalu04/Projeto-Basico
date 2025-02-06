@@ -2,8 +2,67 @@
     --cor01: #4D73DB;
     --cor02: #834DDB;
     --cor03: #544DDB;
-    --cor04: #4DA0DB;
+    --cor04: #4da0db98;
     --cor05: #B14DDB;
     --cor06: #7E79DB;
+    
 }
 
+body {
+    background-color: var(--cor04);
+    margin: 0px;
+}
+
+header {
+    h1 {
+        
+        margin: 0;
+        padding: 15px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        color: white;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.425);
+    }
+    text-align: center;
+    background-image: linear-gradient(to bottom, var(--cor02), var(--cor04));
+}
+
+
+article {
+    background-color: white;
+    width: 800px;
+    padding: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin: auto;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.267);
+    
+    h1 {
+        margin: 0px;
+        color: var(--cor01);
+    }
+
+    h2 {
+        color: var(--cor03);
+    }
+
+    h3 {
+        color: var(--cor03);
+    }
+
+    p {
+        font-family: Arial, Helvetica, sans-serif;
+        text-indent: 2em;
+        line-height: 2em;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
+.aniamacao {
+    background-color: black;
+    h1 {
+        background-color: ;
+    }
+}
